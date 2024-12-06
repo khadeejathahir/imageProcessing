@@ -1,8 +1,8 @@
-%Exercsie Q01 - Write an algorithm to find the area of the leaf and diseased area of the leaf
+%Exercise Q01 - Write an algorithm to find the area of the leaf and diseased area of the leaf
 pkg load image
 
 %Original image
-I = imread('D:\labWorks\leaf.jpg');
+I = imread('Exercise1\leaf.jpg');
 
 %Convert the image to grayscale
 I_gray = rgb2gray(I);
